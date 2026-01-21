@@ -126,9 +126,15 @@ class SwiggyClient:
             params = {"lat": lat, "lng": lng, "search": query}
 
             headers = {
-                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
                 "Accept": "application/json",
-                "Referer": "https://www.swiggy.com/"
+                "Referer": "https://www.swiggy.com/",
+                "sec-ch-ua-platform": "MacIntel",
+                "sec-ch-ua": '"Chrome/143.0.0.0 Safari/537.36"',
+                "sec-ch-ua-mobile": "?0",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-origin"
             }
 
             response = self.session.get(url, params=params, headers=headers)
