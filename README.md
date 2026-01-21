@@ -2,6 +2,12 @@
 
 A CLI tool for monitoring Swiggy orders and searching restaurants via unofficial API.
 
+**Current Versions:**
+- `swiggy.py` (v1.0) - Basic browser cookie auth
+- `swiggy_v2.py` (v2.0) - **Recommended** - Auth token extraction from API
+
+**Note:** v2.0 automatically extracts auth tokens from API responses - no manual DevTools needed!
+
 ## Installation
 
 ```bash
