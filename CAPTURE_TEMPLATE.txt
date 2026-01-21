@@ -1,0 +1,30 @@
+=== SWIGGY API CAPTURE RESULTS ===
+
+Paste your findings here and send back!
+
+[STEP 3 - RESTAURANT SEARCH]
+SEARCH_URL: https://www.swiggy.com/dapi/restaurants/list/v5?lat=XX&lng=XX&search=pizza
+SEARCH_CURL: [paste curl command here]
+SEARCH_RESPONSE_STRUCTURE: [e.g., "restaurants in data.cards array"]
+
+[STEP 4 - MENU]
+MENU_URL: https://www.swiggy.com/dapi/menu/pl?lat=XX&lng=XX&restaurant-menu-id=XXX
+MENU_CURL: [paste curl command here]
+MENU_RESPONSE_STRUCTURE: [e.g., "items in data.items array"]
+
+[STEP 5 - ORDER STATUS]
+STATUS_URL: https://www.swiggy.com/dapi/orders/XXX?lat=XX&lng=XX
+STATUS_CURL: [paste curl command here]
+STATUS_RESPONSE_STRUCTURE: [e.g., "status in data.status, eta in data.eta"]
+
+[STEP 6 - ACTIVE ORDERS]
+ORDERS_URL: https://www.swiggy.com/dapi/orders/list?lat=XX&lng=XX
+ORDERS_CURL: [paste curl command here]
+ORDERS_RESPONSE_STRUCTURE: [e.g., "orders in data.orders array"]
+
+[STEP 7 - AUTHENTICATION]
+COOKIE_HEADER: [paste the long Cookie value here]
+
+[LOCATION]
+YOUR_LATITUDE: [from URL params, e.g., 12.9716]
+YOUR_LONGITUDE: [from URL params, e.g., 77.5946]

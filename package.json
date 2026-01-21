@@ -1,0 +1,34 @@
+{
+  "name": "swiggy",
+  "displayName": "Swiggy CLI",
+  "description": "Monitor Swiggy orders and search restaurants via terminal. Search, check status, and track deliveries without leaving your workflow.",
+  "version": "1.0.0",
+  "author": "Kevin Joseph John",
+  "homepage": "https://github.com/yourusername/swiggy-cli",
+  "repository": "https://github.com/yourusername/swiggy-cli",
+  "license": "MIT",
+  "keywords": ["swiggy", "food", "delivery", "cli", "restaurant", "orders", "monitor"],
+  "categories": ["cli", "api", "food"],
+  "bin": {
+    "swiggy": "swiggy"
+  },
+  "main": "swiggy.py",
+  "files": [
+    "swiggy",
+    "swiggy.py",
+    "requirements.txt",
+    "README.md"
+  ],
+  "engines": {
+    "python": ">=3.7"
+  },
+  "scripts": {
+    "install": "pip install -r requirements.txt",
+    "start": "./swiggy --help"
+  },
+  "os": ["linux", "darwin", "win32"],
+  "dependencies": {
+    "requests": ">=2.31.0"
+  },
+  "devDependencies": {}
+}

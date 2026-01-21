@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Session & Config files (contain sensitive data)
+.swiggy-cli/
+session.json
+config.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
